@@ -82,13 +82,13 @@
         "min": 1,
         "type": [
           {
-            "code": "code"
+            "code": "CodeableConcept"
           }
         ],
         "binding": {
           "strength": "required",
           "description": "Parentesco",
-          "valueSet": "http://hl7.org/fhir/ValueSet/parent-relationship-codes"
+          "valueSet": "http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype"
         }
       },
       {
